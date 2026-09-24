@@ -59,17 +59,23 @@ Because every run adds a new timestamped snapshot rather than overwriting the ol
 |Misspelt state names|1 (`georia`)|0|
 |Distinct Type values|12|10|
 
-### Before cleaning
+### Typos fixed
+Each row shows the raw value next to the cleaned value.
 
-!\[Raw data before cleaning](before.png)
+![Typo fixes before and after](typo_fixes.png)
 
-### After cleaning
+### Type column before cleaning
+Note the typos "CPD" (should be "CDP") and "Boroughs" (should be "Borough").
 
-!\[Cleaned data](after.png)
+![Type column before cleaning](before.png)
+
+### Type column after cleaning
+
+![Type column after cleaning](after.png)
 
 ### Row counts
 
-!\[Row counts before and after](row\_counts.png)
+![Row counts before and after](row_counts.png)
 
 \---
 
